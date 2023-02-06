@@ -19,6 +19,8 @@ kubernetesVersion: ""
 
 # general RKE options
 rke:
+  controlPlaneConfig:
+    cni: none
   # enable local auth endpoint
   localClusterAuthEndpoint:
     enabled: false
